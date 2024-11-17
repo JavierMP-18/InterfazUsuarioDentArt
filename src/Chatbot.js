@@ -20,7 +20,7 @@ const ChatBot = () => {
     const [error, setError] = useState(null);
     const [isSpeaking, setIsSpeaking] = useState(false);
 
-    const API_KEY = "AIzaSyADQvrHU5ygZIN4e_QbCV4XPJbaV8isWeE";
+    const API_KEY = "coloca tu api aqui";
 
     const handleUserInput = async () => {
         let updatedChat = [
